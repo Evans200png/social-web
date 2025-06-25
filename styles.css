@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #28a745;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+nav a:hover{
+    color: red;
+}
+
+.hero, .collaboration-intro {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+section, .auth-form, .project-card {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.job-card, .mentor-card {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #333;
+}
+
+.btn{
+    color: white;
+    background-color: #28a745;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3e0acf;
+}
+
+button.btn {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    background-color: #34d058;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* General Styles for Authentication Forms */
+.auth-form {
+    margin: 50px auto;
+    width: 40%;
+}
+
+.auth-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.auth-form label {
+    font-size: 1.1em;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-form button {
+    width: 100%;
+}
+
+.auth-form p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.auth-form a {
+    color: #28a745;
+    text-decoration: none;
+}
+
+/* General Styles for the Collaboration Page */
+.collaboration-intro h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.collaboration-intro p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.collaborators {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.collaborators h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.project-card {
+    margin: 15px auto;
+    width: 80%;
+}
+
+.project-card h3 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.project-card p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.project-card button {
+    padding: 10px 20px;
+    margin-top: 10px;
+}

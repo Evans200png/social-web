@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Mentor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Find a Mentor</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="jobs.html">Job Listings</a>
+            <a href="mentors.html">Mentorship</a>
+            <a href="collaborate.html">Collaborate</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <section class="mentor-signup">
+        <h2>Become a Mentor</h2>
+        <form action="#" method="POST">
+            <label for="mentor-name">Your Name:</label>
+            <input type="text" id="mentor-name" name="mentor-name" required><br><br>
+
+            <label for="skills">Skills and Expertise:</label>
+            <textarea id="skills" name="skills" rows="4" required></textarea><br><br>
+
+            <button type="submit" class="btn">Apply to Be a Mentor</button>
+        </form>
+    </section>
+
+    <section class="mentor-list">
+        <h2>Available Mentors</h2>
+        <div class="mentor-card">
+            <h3>John Doe - Data Science</h3>
+            <p>Specializes in Python, R, and Machine Learning.</p>
+            <button class="btn">Request Mentorship</button>
+        </div>
+
+        <div class="mentor-card">
+            <h3>Jane Smith - Web Development</h3>
+            <p>Specializes in HTML, CSS, JavaScript, React.</p>
+            <button class="btn">Request Mentorship</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tech Jobs & Mentorship</p>
+    </footer>
+
+</body>
+</html>
